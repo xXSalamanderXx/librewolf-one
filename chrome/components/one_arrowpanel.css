@@ -43,7 +43,7 @@ menuitem.subviewbutton:not([disabled])[_moz-menuhover], .widget-overflow-list .t
 .toolbaritem-combined-buttons:is(:not([cui-areatype="toolbar"]), [overflowedItem="true"]) > toolbarbutton:not([disabled], [open]):is(:hover),
 #downloadsListBox > richlistitem[state="1"][exists].hoveringMainArea:hover {
     background: var(--button-bgcolor) !important;
-    color: var(--arrowpanel-color, var(--tab-selected-textcolor)) !important;
+    color: var(--panel-color, var(--tab-selected-textcolor)) !important;
 }
 
 /* Background color when clicking on different items in the main menus */
@@ -61,8 +61,8 @@ menuitem.subviewbutton:not([disabled])[_moz-menuactive], .widget-overflow-list .
 
 .subviewbutton:is([disabled]), .subviewbutton:where([disabled="true"]):hover {       
     -moz-context-properties: fill;
-    color: color-mix(in srgb, var(--arrowpanel-color)70%, transparent) !important;
-    fill:  color-mix(in srgb, var(--arrowpanel-color)70%, transparent) !important;
+    color: color-mix(in srgb, var(--panel-color)70%, transparent) !important;
+    fill:  color-mix(in srgb, var(--panel-color)70%, transparent) !important;
 }
 
 #PlacesToolbar menupopup[placespopup] menuseparator {

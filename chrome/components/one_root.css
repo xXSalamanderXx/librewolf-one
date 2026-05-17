@@ -17,7 +17,7 @@
       --toolbarbutton-icon-fill: #c7cdd0 !important;                                        /* icons */
       --toolbar-field-color: var(--toolbarbutton-icon-fill) !important;                     /* toolbar_field_text */
       --arrowpanel-background: #272b3f !important;                                          /* popup */
-      --arrowpanel-color: var(--toolbarbutton-icon-fill) !important;                        /* toolbar_field_text */
+      --panel-color: var(--toolbarbutton-icon-fill) !important;                        /* toolbar_field_text */
       --tab-selected-outline-color: transparent !important;                                 /* tab_line */
       --toolbarbutton-hover-personal: var(--toolbarbutton-hover-background) !important;     /* button_background_hover */
       --tab-selected-box-shadow: 0px 5px 7px color-mix(in srgb, 
@@ -40,7 +40,7 @@
       --toolbarbutton-icon-fill: #372f4c !important;                                        /* icons */
       --toolbar-field-color: var(--toolbarbutton-icon-fill) !important;                     /* toolbar_field_text */
       --arrowpanel-background: #eff3f5 !important;                                          /* popup */
-      --arrowpanel-color: var(--toolbarbutton-icon-fill) !important;                        /* toolbar_field_text */
+      --panel-color: var(--toolbarbutton-icon-fill) !important;                        /* toolbar_field_text */
       --tab-selected-outline-color: transparent !important;                                 /* tab_line */
       --toolbarbutton-hover-personal: var(--toolbarbutton-hover-background) !important;     /* button_background_hover */
       --tab-selected-box-shadow: 0px 5px 7px color-mix(in srgb, 
@@ -87,7 +87,7 @@
   /*--toolbar-color: var(--toolbarbutton-icon-fill) !important;                           /* toolbar label color */
   --chrome-content-separator-color: none !important;                                    /* toolbar_bottom_separator */
   
-  /*--arrowpanel-background: #1c1726 !important;                                        /* popup */
+  --arrowpanel-background: var(--panel-background) !important;                          /* popup background - variable removed in firefox v.151 */
   /*--arrowpanel-color: var(--tab-selected-textcolor) !important;                       /* popup_text */  
   /*--arrowpanel-border-color: color-mix(in srgb, 
     var(--arrowpanel-background) 90%, var(--tab-selected-textcolor)) !important;        /* popup_border */
@@ -146,7 +146,7 @@
   --arrowpanel-menuitem-padding: 8px !important;                                        /* Smaller dropdown menus */
   --arrowpanel-border-radius: 6px !important;                                           /* Menus roundness */
   --panel-subview-body-padding: 4px 0px !important;                                     /* Menu padding */
-  --arrowpanel-menuitem-margin-inline: 4px !important;                                  /* Padding popup 'elements' */
+  --panel-menuitem-margin-inline: 4px !important;                                  /* Padding popup 'elements' */
   --arrowpanel-padding: 1.3em !important;                                               /* Another menu padding */
   /*--arrowpanel-menuitem-margin: 0px !important;                                       /* Menu margins */
   --panel-separator-zap-gradient: none !important;                                      /* Default Gradient */
@@ -163,7 +163,7 @@
   
   /*--urlbar-popup-url-color: var(--general-color) !important;                          /* Maybe a legacy variable - 'Search suggestions' urls color */
   --autocomplete-popup-hover-background: var(--button-hover-bgcolor) !important;        /* 'Search suggestions' urls 'hover' background */
-  --urlbarView-separator-color: transparent !important;                                 /* Urlbar 'open' - separator color  */
+  --urlbarview-separator-color: transparent !important;                                 /* Urlbar 'open' - separator color  */
   --urlbarView-result-button-selected-background-color: color-mix(in srgb,              /* Urlbar 'open' - button on each result */
     var(--button-bgcolor) 94%, white) !important;
 
@@ -182,10 +182,10 @@
   
   /*--button-background-color: var(--input-border-color) !important;                    /* Not primary Button background */
   --button-background-color-hover: color-mix(in srgb, 
-    var(--button-background-color) 90%, var(--arrowpanel-color)) !important;            /* Not primary Button background 'hover' */
+    var(--button-background-color) 90%, var(--panel-color)) !important;            /* Not primary Button background 'hover' */
   
-  --button-text-color-primary: var(--arrowpanel-color) !important;                      /* Button label color */
-  --button-text-color-primary-hover: var(--arrowpanel-color) !important;                /* Buttons label color 'hover' */
+  --button-text-color-primary: var(--panel-color) !important;                      /* Button label color */
+  --button-text-color-primary-hover: var(--panel-color) !important;                /* Buttons label color 'hover' */
   
   --inactive-titlebar-opacity: 1 !important;                                            /* Opacity unfocused window */
   

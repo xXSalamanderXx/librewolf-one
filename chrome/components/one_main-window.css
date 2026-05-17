@@ -486,13 +486,13 @@ menubar > menu {
         /* Margins 1st split tab */
         & .split-view-panel.split-view-panel-active[column="0"] {
             margin-block: 0px !important;
-            margin-inline: 1px 3px !important;
+            margin-inline: 1px 2px !important;
         }
         
         /* Margins 2nd split tab */
         & .split-view-panel.split-view-panel-active[column="1"] {
             margin-block: 0px !important;
-            margin-inline: 3px 1px !important;
+            margin-inline: 2px 1px !important;
         }
     }
 }

@@ -10,7 +10,6 @@
 #customization-footer .footer-button:not(#customization-done-button,:hover,:active,[open]) {
     appearance: none !important;
     background-color: var(--input-border-color) !important;
-    border-color: var(--red) !important;
     color: var(--my-font-color) !important;
 }
 

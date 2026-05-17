@@ -3,7 +3,7 @@
 
 @media (-moz-platform: windows), (-moz-platform: linux) {
     :root {
-        --label-color: color-mix(in srgb, var(--arrowpanel-color, var(--tab-selected-textcolor)) 90%, var(--Button-background-personal));
+        --label-color: color-mix(in srgb, var(--panel-color, var(--tab-selected-textcolor)) 90%, var(--Button-background-personal));
         --margin-left-icons-personal: calc(var(--toolbarbutton-inner-padding)*2 - 10px) !important;
         --margin-right-icons-personal: 0px !important;
         --menu-label: "Menu" ;
@@ -258,7 +258,7 @@
                     top: calc(var(--tab-height-personal)/2 + 4px);
                     width: -moz-available;
                     height: 1px !important;
-                    color: var(--arrowpanel-color);
+                    color: var(--panel-color);
                     display: inline-flex !important;
                     white-space: pre !important;
                     inset-inline-start: calc(var(--margin-left-icons-personal) + 9px);
