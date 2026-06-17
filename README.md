@@ -1,4 +1,4 @@
-# Firefox-ONE Theme for Opera One skin Lovers 
+# Librewolf-ONE Theme for Opera One skin Lovers 
 
 <ul><li>(ES) Tema para los amantes de la skin de Opera-ONE.</li>
 <li>(EN) A theme for Opera-ONE Skin Lovers.</li></ul>
