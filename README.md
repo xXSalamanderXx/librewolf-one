@@ -3,7 +3,7 @@
 <ul><li>(ES) Tema para los amantes de la skin de Opera-ONE.</li>
 <li>(EN) A theme for Opera-ONE Skin Lovers.</li></ul>
 
-![Light_dark_splash](https://github.com/Godiesc/firefox-one/assets/22057609/dd708561-8227-48a9-b287-64696f8116fb)
+![Librewolf One](https://i.postimg.cc/R0pFTnDp/Screenshot-2026-06-18-050954.png)
 
 ## ¿Cómo instalar? - How to install?
 
