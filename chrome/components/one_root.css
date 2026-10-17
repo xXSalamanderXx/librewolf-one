@@ -383,18 +383,20 @@
   }
 }
 
-/* ________________________________________ Colors when the theme selected is 'System theme - automatic' _______________________________________ */
-
-@media not (prefers-contrast) {
-  :root:not([lwtheme]) {
-    --lwt-accent-color: light-dark(#f9f9f9, #101019) !important;                                                        /* Frame */
-    --toolbox-bgcolor: light-dark(var(--lwt-accent-color), var(--lwt-accent-color)) !important;                         /* Frame window focus */
-    --toolbox-bgcolor-inactive: light-dark(var(--lwt-accent-color), var(--lwt-accent-color)) !important;                /* Frame window unfocus */
-    --toolbar-background-color: light-dark(#eff3f5, #363844) !important;                                                         /* Toolbar */
-    --arrowpanel-background: light-dark(#eff3f5, #2a2c36) !important;                                                   /* Popup */
-    --toolbar-field-background-color-focus: light-dark(#e7edf1, #4c547b) !important;                                    /* Urlbar focus */
-    --sidebar-background-color: light-dark(var(--toolbar-background-color), var(--toolbar-background-color)) !important;                  /* Sidebar content background */
-    --toolbarbutton-icon-fill: light-dark(#101019, #c4bbd7) !important;                                                 /* Icons */
+/* __________________________________ Colors when the theme selected is 'System theme - dark/light/automatic' __________________________________ 
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ */
+:root:is([theme-in-app], :not([lwtheme])), :host {
+  @layer tokens-browser-theme-nova {
+    @media not ((forced-colors) or (-moz-native-theme)) {
+      --lwt-accent-color: light-dark(#f9f9f9, #09080d) !important;                                                          /* Frame */
+      --toolbar-background-color: light-dark(#f4f2f7, #120f19) !important;                                                  /* Toolbar */
+      --panel-background-color: light-dark(#f4f2f7, #1c1726) !important;                                                    /* Popup */
+      --toolbar-field-background-color-focus: light-dark(#f4f2f7, #2b2640) !important;                                      /* Urlbar focus */
+      --toolbarbutton-icon-fill-attention: var(--fuchsia) !important;                                                       /* Accent color */
+      --tab-border-color-accent: transparent !important;
+      --tab-background-color: transparent !important;
+      --toolbox-background-image: linear-gradient(to right, var(--lwt-accent-color), var(--lwt-accent-color)) !important;
+    }
   }
 }
 
