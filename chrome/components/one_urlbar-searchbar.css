@@ -2,7 +2,9 @@
    https://github.com/Godiesc/firefox-one */
 
 /* Trick for Search results to fill all the container */
-.urlbarView-body-outer {
+
+#urlbar-results,
+#searchbar-results {
     margin-inline: calc(-1*var(--urlbar-background-overhang-open)) !important;
     margin-block-end: calc(-1*var(--urlbar-background-overhang-open)) !important;
 }

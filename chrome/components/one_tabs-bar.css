@@ -67,7 +67,7 @@
         /* Remove unwanted extra tab margin */
         & .tabbrowser-tab {
             margin-block-start: -5px !important;
-            padding-inline: 0px !important;
+            padding: 0px !important;
             
             /* Align tab group line */
             & .tab-background {
@@ -86,12 +86,14 @@
 
             /* Style right tab */
             &:last-child {
-                border-inline-start: 1px solid var(--toolbarbutton-icon-fill) !important;
-                border-image: 0 1 linear-gradient(
-                    transparent 24%,
-                    color-mix(in srgb, var(--tab-group-color-invert, var(--color-accent-primary-active)) 80%, transparent) 24%,
-                    color-mix(in srgb, var(--tab-group-color-invert, var(--color-accent-primary-active)) 80%, transparent) 68%,
-                    transparent 68% );
+                .tab-stack {
+                    border-inline-start: 1px solid var(--toolbarbutton-icon-fill) !important;
+                    border-image: 0 1 linear-gradient(
+                        transparent 24%,
+                        color-mix(in srgb, var(--tab-group-color-invert, var(--color-accent-primary-active)) 80%, transparent) 24%,
+                        color-mix(in srgb, var(--tab-group-color-invert, var(--color-accent-primary-active)) 80%, transparent) 68%,
+                        transparent 68% );
+                }
 
                 .tab-background { border-radius: 0 var(--tab-border-radius) var(--tab-border-radius) 0 !important;}
             }
@@ -100,7 +102,7 @@
         /* Transparent sepataror when a tab is active */
         &[hasactivetab] {
             & .tabbrowser-tab {
-                &:last-child {
+                &:last-child .tab-stack {
                     border-image: none !important;
                     border-color: transparent !important;
                 }

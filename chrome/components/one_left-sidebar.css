@@ -823,7 +823,7 @@
     
     :root {
         --my-margin-inline-inner-tab: 10px !important;
-        --tab-collapsed-background-width: calc(var(--my-vertical-toolbar-width) - var(--tab-inline-padding)*2) !important;
+        /*--tab-collapsed-background-width: calc(var(--my-vertical-toolbar-width) - var(--tab-padding-inline)*2) !important;/**/
         --my-separator-border-style1: linear-gradient(to right, transparent 10px, var(--my-content-border-color) 10px,
                                      var(--my-content-border-color) calc(100% - 10px), transparent calc(100% - 10px)) 1;
     }
@@ -872,7 +872,7 @@
 
     #tabbrowser-tabs[orient="vertical"] {
         & .tab-content {
-            --tab-inline-padding: calc(var(--my-vertical-elements-width)/2 - 8px) !important;
+            --tab-padding-inline: calc(var(--my-vertical-elements-width)/2 - 8px) !important;
         }
     }
     
