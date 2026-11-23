@@ -18,13 +18,33 @@ This repository is a LibreWolf-focused fork which closely follows upstream. All 
 4. Find the Profile Directory or Profile Folder entry and open that location. You can also use `about:profiles` to locate the correct profile.
 
 <details>
-<summary> Finding Your Profile Directory (Install Folder)</summary>
+<summary><strong>Finding Your Profile Directory (Install Folder)</strong></summary>
 
-Open `about:support` and locate the Profile Directory or Profile Folder entry.
+### Option 1: `about:support`
 
-Alternatively, open `about:profiles` to view your profiles and their root directories.
+1. Type `about:support` in the address bar and press Enter.
+2. Scroll down to **Application Basics**.
+3. Find the row labeled **Profile Directory** (or **Profile Folder**).
+4. Click the button next to it:
+   - **Windows:** `Open Directory`
+   - **Linux:** `Open Folder`
+   - **macOS:** `Show in Finder`
+
+> If no button appears, click **Copy Path** and paste it into your file manager's address bar.
+
+### Option 2: `about:profiles`
+
+1. Type `about:profiles` in the address bar and press Enter.
+2. Locate your profile card marked **Default Profile** or **In Use**.
+3. Under **Root Directory**, click:
+   - **Windows:** `Open Directory`
+   - **Linux:** `Open Folder`
+   - **macOS:** `Show in Finder`
+
+Either method opens your file manager directly to the profile folder, ready for you to drop in the theme files.
 
 See the upstream [profile-directory example](https://github.com/Godiesc/firefox-one#example-of-aboutsupport) for a visual reference.
+
 </details>
 
 5. Back up your existing `chrome` folder and `user.js` file, if present.
