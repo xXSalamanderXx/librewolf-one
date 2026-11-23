@@ -16,13 +16,6 @@ This repository is a LibreWolf-focused fork which closely follows upstream. All 
 2. Extract the downloaded archive.
 3. Open LibreWolf and enter `about:support` in the address bar.
 4. Find the Profile Directory or Profile Folder entry and open that location. You can also use `about:profiles` to locate the correct profile.
-5. Back up your existing `chrome` folder and `user.js` file, if present.
-6. Close LibreWolf completely.
-7. Copy the theme's `chrome` folder and `user.js` file into your profile directory.
-   - If you already use a custom `user.js`, merge the theme's preferences rather than overwriting your existing configuration.
-   - Make sure the `chrome` folder is directly inside the profile directory, not inside an additional extracted folder.
-8. Start LibreWolf and install one of the compatible themes listed below.
-9. Restart LibreWolf to apply the configuration.
 
 <details>
 <summary> Finding Your Profile Directory (Install Folder)</summary>
@@ -33,6 +26,15 @@ Alternatively, open `about:profiles` to view your profiles and their root direct
 
 See the upstream [profile-directory example](https://github.com/Godiesc/firefox-one#example-of-aboutsupport) for a visual reference.
 </details>
+
+5. Back up your existing `chrome` folder and `user.js` file, if present.
+6. Close LibreWolf completely.
+7. Copy the theme's `chrome` folder and `user.js` file into your profile directory.
+   - If you already use a custom `user.js`, merge the theme's preferences rather than overwriting your existing configuration.
+   - Make sure the `chrome` folder is directly inside the profile directory, not inside an additional extracted folder.
+8. Start LibreWolf and install one of the compatible themes listed below.
+9. Restart LibreWolf to apply the configuration.
+
 
 ## Compatible Themes
 
