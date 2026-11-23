@@ -4,15 +4,15 @@ An Opera One-inspired theme for LibreWolf, based on [Firefox-ONE](https://github
 
 ![LibreWolf-ONE preview](https://i.postimg.cc/R0pFTnDp/Screenshot-2026-06-18-050954.png)
 
-## Credits
+## Credits 🙏
 
-The original theme, design, and underlying customization work were created by [Godiesc](https://github.com/Godiesc) for [Firefox-ONE](https://github.com/Godiesc/firefox-one).
+The original theme and most of the underlying customization work are maintained by [Godiesc](https://github.com/Godiesc) for [Firefox-ONE](https://github.com/Godiesc/firefox-one).
 
-This repository is a LibreWolf-focused fork maintained by [xXSalamanderXx](https://github.com/xXSalamanderXx). Credit for the original project belongs to Godiesc and its contributors.
+Credit for the original project belongs to Godiesc and its contributors.
 
-Thanks also to [Bali10050](https://github.com/Bali10050) for the Windows 11 and macOS testing credited by the upstream project.
+This repository is a LibreWolf-focused fork which closely follows upstream. All Firefox branding throughout the theme has been changed to Librewolf branding.
 
-## Installation
+## Installation 🧑‍🎨
 
 1. Download the theme from the [Releases](https://github.com/xXSalamanderXx/librewolf-one/releases) page.
 2. Extract the downloaded archive.
@@ -53,11 +53,11 @@ Thanks also to [Bali10050](https://github.com/Bali10050) for the Windows 11 and 
 
 See the upstream [video explanation](https://imgur.com/a/0ZASdRb) for switching between light and dark appearances when needed.
 
-## Important Information
+## Important Information ⚠️
 
 - Use flexible spaces in the Customize Toolbar screen to add separation between toolbar items.
-- The theme uses the bookmarks toolbar for its left sidebar. Keep the bookmarks toolbar enabled when using that layout.
-- Browser updates can affect custom interface themes. Keep a backup of your configuration before updating the theme or browser.
+- The theme uses the bookmarks toolbar for its left sidebar. Keep the bookmarks toolbar enabled when using the sidebar layout.
+- Browser updates can affect custom interface themes. Updates usually address this before visual defects occur.
 
 ### Sidebar Extensions
 
@@ -75,7 +75,7 @@ The upstream project lists the following extensions for use with its sidebar lay
 
 These are optional third-party extensions. Their availability and compatibility are maintained by their respective developers.
 
-## Optional Features
+## Optional Features 🔨
 
 Open `about:config` and create or update the following Boolean preferences as needed.
 
@@ -99,7 +99,7 @@ To use tree-style tabs without the left sidebar, enable both:
 
 For screenshots and configuration examples, see the upstream [feature previews](https://github.com/Godiesc/firefox-one/tree/main/Previews).
 
-## Customization
+## Customization 
 
 ### Layout and Appearance
 
@@ -142,7 +142,7 @@ The following platform results were documented by the upstream Firefox-ONE proje
 
 | Platform | Upstream Status |
 |---|---|
-| Linux — Manjaro KDE | Reported tested |
+| Linux — Debian, Manjaro, KDE | Reported tested |
 | Windows 10 | Reported tested |
 | Windows 11 | Reported tested |
 | Windows 7 | Not tested |
@@ -155,11 +155,7 @@ The following platform results were documented by the upstream Firefox-ONE proje
 - [Windows 11](https://imgur.com/a/WhypdHU)
 - [macOS](https://imgur.com/a/UQ1TiUr)
 
-## Known Issues
-
-- Right-to-left interface layouts are not supported by the upstream theme.
-- The upstream project reports limitations with the left sidebar and tree-tab configuration on macOS.
-- Compatibility may vary between browser versions.
+## Issues
 
 If you encounter a problem, include your LibreWolf version, operating system, enabled theme options, and a screenshot when opening an [issue](https://github.com/xXSalamanderXx/librewolf-one/issues).
 
