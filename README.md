@@ -24,7 +24,15 @@ This repository is a LibreWolf-focused fork which closely follows upstream. All 
 8. Start LibreWolf and install one of the compatible themes listed below.
 9. Restart LibreWolf to apply the configuration.
 
-> The repository's latest development code may target newer browser versions. Prefer a release when available, and check its compatibility notes before installing.
+<details>
+<summary> Finding Your Profile Directory (Install Folder)</summary>
+
+Open `about:support` and locate the Profile Directory or Profile Folder entry.
+
+Alternatively, open `about:profiles` to view your profiles and their root directories.
+
+See the upstream [profile-directory example](https://github.com/Godiesc/firefox-one#example-of-aboutsupport) for a visual reference.
+</details>
 
 ## Compatible Themes
 
@@ -140,10 +148,10 @@ The following platform results were documented by the upstream Firefox-ONE proje
 
 | Platform | Upstream Status |
 |---|---|
-| Linux — Gnome & KDE Plasma | Reported tested ✅️ |
-| Windows 11 | Reported tested ✅️ |
-| Windows 10 | Reported tested ✅️ |
-| macOS | Reported tested ✅️ |
+| Linux — Gnome & KDE Plasma | Reported tested  ✅️ |
+| Windows 11 | Reported tested  ✅️ |
+| Windows 10 | Reported tested  ✅️ |
+| macOS | Reported tested  ✅️ |
 
 ### Platform Previews (from Firefox-One)
 
@@ -159,14 +167,6 @@ If you encounter a problem, include your LibreWolf version, operating system, en
 ## Related Project
 
 For another Opera-inspired browser theme by the original developer, see [Firefox-GX](https://github.com/Godiesc/firefox-gx).
-
-## Finding Your Profile Directory
-
-Open `about:support` and locate the Profile Directory or Profile Folder entry.
-
-Alternatively, open `about:profiles` to view your profiles and their root directories.
-
-See the upstream [profile-directory example](https://github.com/Godiesc/firefox-one#example-of-aboutsupport) for a visual reference.
 
 ---
 
