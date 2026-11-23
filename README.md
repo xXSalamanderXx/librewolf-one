@@ -6,9 +6,7 @@ An Opera One-inspired theme for LibreWolf, based on [Firefox-ONE](https://github
 
 ## Credits 🙏
 
-The original theme and most of the underlying customization work are maintained by [Godiesc](https://github.com/Godiesc) for [Firefox-ONE](https://github.com/Godiesc/firefox-one).
-
-Credit for the original project belongs to Godiesc and its contributors.
+The original theme and most of the underlying customization work are maintained by [Godiesc](https://github.com/Godiesc) for [Firefox-ONE](https://github.com/Godiesc/firefox-one) and it's contributors.
 
 This repository is a LibreWolf-focused fork which closely follows upstream. All Firefox branding throughout the theme has been changed to Librewolf branding.
 
