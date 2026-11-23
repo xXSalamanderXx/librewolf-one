@@ -140,13 +140,12 @@ The following platform results were documented by the upstream Firefox-ONE proje
 
 | Platform | Upstream Status |
 |---|---|
-| Linux — Debian, Manjaro, KDE | Reported tested |
-| Windows 10 | Reported tested |
-| Windows 11 | Reported tested |
-| Windows 7 | Not tested |
-| macOS | Reported tested, with left-sidebar and tree-tab limitations |
+| Linux — Gnome & KDE Plasma | Reported tested ✅️ |
+| Windows 11 | Reported tested ✅️ |
+| Windows 10 | Reported tested ✅️ |
+| macOS | Reported tested ✅️ |
 
-### Platform Previews
+### Platform Previews (from Firefox-One)
 
 - [Linux — Manjaro KDE](https://imgur.com/a/Di7Db9z)
 - [Windows 10](https://github.com/Godiesc/firefox-one/assets/22057609/55e39c67-7588-456a-a30b-278f1dc4bd19)
