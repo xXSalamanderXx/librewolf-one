@@ -168,7 +168,7 @@ Restart LibreWolf after making changes.
 
 The following platform results were documented by the upstream Firefox-ONE project. They are historical upstream reports, not a guarantee of compatibility with current LibreWolf releases.
 
-| Platform | Upstream Status |
+| Platform | Status |
 |---|---|
 | Linux — Gnome & KDE Plasma | Tested  ✅️ |
 | Windows 11 | Tested  ✅️ |
