@@ -47,7 +47,7 @@ See the upstream [profile-directory example](https://github.com/Godiesc/firefox-
 
 </details>
 
-5. Back up your existing `chrome` folder and `user.js` file, if present.
+5. (Optional) - Back up your existing `chrome` folder and `user.js` file, if present.
 6. Close LibreWolf completely.
 7. Copy the theme's `chrome` folder and `user.js` file into your profile directory.
    - If you already use a custom `user.js`, merge the theme's preferences rather than overwriting your existing configuration.
@@ -170,10 +170,10 @@ The following platform results were documented by the upstream Firefox-ONE proje
 
 | Platform | Upstream Status |
 |---|---|
-| Linux — Gnome & KDE Plasma | Reported tested  ✅️ |
-| Windows 11 | Reported tested  ✅️ |
-| Windows 10 | Reported tested  ✅️ |
-| macOS | Reported tested  ✅️ |
+| Linux — Gnome & KDE Plasma | Tested  ✅️ |
+| Windows 11 | Tested  ✅️ |
+| Windows 10 | Tested  ✅️ |
+| macOS | Tested  ✅️ |
 
 ### Platform Previews (from Firefox-One)
 
